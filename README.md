@@ -11,7 +11,6 @@
 - Mssql 14+
 - Boostrap
 - ...
-- 
 ## Installation
 
 Install through git:
@@ -34,8 +33,15 @@ I. Handle in Backend .Net (Visual studio)
 ```
 Update-Database
 ```
+3. Run backend
+
 II. Handle in Fontend Angular (Visual studio code)
 1. Open client folder have route ...Try-Hard\Client\client\ with visual studio code, and Install npm through terminal:
 ```
 npm i
+npm install -g @angular/cli
+```
+2. Run Fontend by command:
+```
+ng serve -o
 ```
